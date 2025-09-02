@@ -1,0 +1,27 @@
+import java.util.Scanner;//La libredia de la que necesita SCANNER
+
+public class I_O_de_datos_por_consola {
+
+    public static void main(String[] args) {
+        
+        Scanner entrada = new Scanner(System.in);//El metodo que nos aceptara la entreda de datos por teclado
+
+        int numero;
+        float decimal;
+        String cadena;
+
+        System.out.print("Digite un numero: ");
+        numero = entrada.nextInt();//Aqui indicamos que tipo de dato vamos a ingrsar en este caso de tipo int
+        System.out.println("El numero es: " + numero);
+
+        System.out.print("Digite un numero: ");
+        decimal = entrada.nextFloat();//Aqui un nummero Flotante
+        System.out.println("El numero es: " + decimal);
+
+        System.out.print("Escriba una cadena: ");
+        cadena = entrada.next();//Aqui se guardar una cadena hasta que encuentre un espacio
+        System.out.println("La cadena es: " + cadena);
+
+        entrada.close();
+    }
+}
