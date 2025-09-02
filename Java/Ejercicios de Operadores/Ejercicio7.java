@@ -6,16 +6,17 @@ import java.util.Scanner;
  */
 public class Ejercicio7 {
     public static void main(String[] args) {
+        
         Scanner entrada = new Scanner(System.in);
 
         double a,b,c,raiz1,raiz2;
 
         System.out.println("Digite el numero de a: ");
-        a = entrada.nextFloat();
+        a = entrada.nextDouble();
         System.out.println("Digite el numero de b: ");
-        b = entrada.nextFloat();
+        b = entrada.nextDouble();
         System.out.println("Digite el numero de c: ");
-        c = entrada.nextFloat();
+        c = entrada.nextDouble();
 
         raiz1 = -b + Math.sqrt((b*b) - (a*c*4)) / 2*a;
         raiz2 = -b - Math.sqrt((b*b) - (a*c*4)) / 2*a;
