@@ -1,4 +1,3 @@
-package Java;
 /* Construir un programa que dado un numero total de horas
  * devuelve el numero de semanas, dias y horas equivalentes.
  * Por ejemplo, dado un total de 1000 horas debe mostra 5 semanas, 6 dias y 16 horas.

@@ -1,5 +1,3 @@
-package Java;
-
 import java.util.Scanner;
 
 /* Construir uun programa que calcule y muestre por pantalla 

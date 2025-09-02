@@ -1,4 +1,3 @@
-package Java;
 /* Guillermo tiene N dolares. Luis tiene la mitad de
  * lo que posse Guillermo. Juan tiene la mitad de lo que possen Luis y Guillermo
  * juntos. Hacer un programa que calcule e imprima la cantidad de dinero que 

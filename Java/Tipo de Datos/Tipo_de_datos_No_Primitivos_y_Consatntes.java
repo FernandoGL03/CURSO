@@ -1,4 +1,3 @@
-package Java;
 public class Tipo_de_datos_No_Primitivos_y_Consatntes {
     public static void main(String[] args) {
         /*Los datos No primitivos no son muy deferentes a los anteriores

@@ -1,4 +1,3 @@
-package Java;
 public class Tipo_de_Datos_Primitivos {
     public static void main(String[] args) {
         /*Tipos de datos en Java que van desde 

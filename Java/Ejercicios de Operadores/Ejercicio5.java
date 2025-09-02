@@ -1,4 +1,3 @@
-package Java;
 /* Hacer un programa que calcule el 
  * cuadrado de una suma 
  * (a+b)^2 = a^2 + b^2 + 2ab
