@@ -1,3 +1,4 @@
+package Java;
 import java.util.Scanner;//La libredia de la que necesita SCANNER
 
 public class I_O_de_datos_por_consola {

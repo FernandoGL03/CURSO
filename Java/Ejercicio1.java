@@ -1,3 +1,4 @@
+package Java;
 /*Hacer un programa que calalcule la e imprima 
 la suma de tres calificaciones*/
 import java.util.Scanner;
