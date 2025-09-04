@@ -1,5 +1,3 @@
-package Java.Operadores;
-
 public class Operadores_de_Asignacion {
     public static void main(String[] args) {
         

@@ -1,5 +1,3 @@
-package Java.Operadores;
-
 public class Incremento_Decremento {
     public static void main(String[] args) {
         /* El incremento es cuando a un valor en memoria le aumentamos en 1 a ese valor

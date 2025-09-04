@@ -1,5 +1,3 @@
-package Java.Operadores;
-
 import java.util.Scanner;
 
 public class Operadores_logicos {
