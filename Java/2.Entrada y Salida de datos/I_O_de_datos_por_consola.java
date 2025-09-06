@@ -1,4 +1,4 @@
-import java.util.Scanner;//La libredia de la que necesita SCANNER
+import java.util.Scanner;//La libreria de la que necesita SCANNER
 
 public class I_O_de_datos_por_consola {
 
