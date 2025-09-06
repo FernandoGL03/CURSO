@@ -4,7 +4,7 @@ public class I_O_de_datos_por_consola {
 
     public static void main(String[] args) {
         
-        Scanner entrada = new Scanner(System.in);//El metodo que nos aceptara la entreda de datos por teclado
+        Scanner entrada = new Scanner(System.in);//El metodo que nos aceptara la entrada de datos por teclado
 
         int numero;
         float decimal;
