@@ -1,6 +1,6 @@
 public class Tipo_de_Datos_Primitivos {
     public static void main(String[] args) {
-        /*Tipos de datos en Java que van desde 
+        /*Los tipos de datos primitivos en Java que van desde 
             byte
             short
             int
