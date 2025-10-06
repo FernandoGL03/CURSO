@@ -3,7 +3,6 @@ package Java.Polimorfismo;
 import javax.swing.JOptionPane;
 import java.util.ArrayList;
 
-// Clase Principal para la demostración
 public class Principal {
 
     // Método estático para solicitar datos comunes a todos los vehículos
@@ -18,7 +17,6 @@ public class Principal {
 
     public static void main(String[] args) {
         
-        // Creamos una lista polimórfica: la referencia es Vehiculo, pero contendrá objetos de las clases hijas.
         ArrayList<Vehiculo> vehiculos = new ArrayList<>();
 
         // 1. CREAR VEHICULO TURISMO
@@ -28,7 +26,6 @@ public class Principal {
         
         try {
             int nPuertas = Integer.parseInt(sNpuertas);
-            // Creamos el objeto e_INSTANCIAMOS_como_clase_hija, pero la referencia se guarda en el ArrayList de clase padre (Polimorfismo).
             vehiculos.add(new VehiculoTurismo(nPuertas, datosTurismo[0], datosTurismo[1], datosTurismo[2]));
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "Error: El número de puertas debe ser un número entero. Se omitirá este vehículo.", "Error", JOptionPane.ERROR_MESSAGE);
@@ -64,12 +61,8 @@ public class Principal {
         
         StringBuilder reporte = new StringBuilder("--- REPORTE DE VEHÍCULOS ---\n\n");
         
-        // Iteramos sobre la lista de objetos de tipo 'Vehiculo'.
-        // Al llamar a 'MostrarDatos()', Java determina automáticamente qué versión del método
-        // usar (si la de Turismo, Deportivo o Furgoneta) basándose en la clase real del objeto.
         for (Vehiculo v : vehiculos) {
-            // El polimorfismo permite llamar al método 'MostrarDatos' sin saber el tipo exacto
-            // del objeto, y se ejecuta la versión sobrescrita correcta.
+
             reporte.append(v.MostrarDatos()).append("\n--------------------------\n");
         }
 
